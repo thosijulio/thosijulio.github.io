@@ -5,9 +5,19 @@ body {
 }
 #inicio{
     font-family: montserrat, sans-serif;
+    text-align: center;
 }
 #description{
     font-family: montserrat, sans-serif;
+    text-align: left;
+    margin-top: 80px;
+    padding-left: 180px;
+}
+#foto{
+    float: left;
+    padding: 5px;
+    background-color: black;
+    border-radius: 100px;
 }
 .ul1{
     font-size:22px;
@@ -26,4 +36,7 @@ body {
 }
 .ul6{
     font-size: 12px;
+}
+.uli{
+    background-color: blue;
 }
