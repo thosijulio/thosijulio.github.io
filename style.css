@@ -1,0 +1,29 @@
+body {
+    background-color: RGB(98, 114, 100);
+    margin: 0px;
+    font-family: montserrat, sans-serif;
+}
+#inicio{
+    font-family: montserrat, sans-serif;
+}
+#description{
+    font-family: montserrat, sans-serif;
+}
+.ul1{
+    font-size:22px;
+}
+.ul2{
+    font-size: 20px;
+}
+.ul3{
+    font-size: 18px;
+}
+.ul4{
+    font-size: 16px;
+}
+.ul5{
+    font-size: 14px;
+}
+.ul6{
+    font-size: 12px;
+}
