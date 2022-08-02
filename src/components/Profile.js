@@ -33,7 +33,7 @@ const Profile = () => {
               <Typical
                 loop={Infinity}
                 steps={[
-                  "Desenvolvedor Full-Stack Web",
+                  "Desenvolvedor Full-Stack Web Jr.",
                   1000,
                 ]}
               />
@@ -41,10 +41,10 @@ const Profile = () => {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {" "}
-              Contratar{" "}
-            </button>
+            <a className="btn primary-btn" href="mailto:thosijulio@gmail.com">
+            {" "}
+            Enviar E-mail{" "}
+            </a>
             <a href="../assets/CV.pdf" download="CV-JulioThosi.pdf">
               <button className="btn highlighted-btn">Baixar Currículo</button>
             </a>
@@ -52,9 +52,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="profile-picture">
-        <div className="profile-picture-background">
-
-        </div>
+        <div className="profile-picture-background" />
       </div>
     </div>
   )
