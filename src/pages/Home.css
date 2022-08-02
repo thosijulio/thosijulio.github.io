@@ -1,11 +1,11 @@
 .profile-container {
   display: flex;
   align-items: center;
+  background-color: #24263B;
   text-align: center;
   justify-content: center;
-  height: 10%;
+  height: 90vh;
   min-width: fit-content;
-  background-image: url('../assets/bg.jpg');
 }
 
 .profile-parent {
@@ -121,7 +121,7 @@
 
 @media screen and (max-width: 810px) {
   .profile-picture {
-    margin: 0 !important;
+    display: none;
   }
 
   .profile-parent {
@@ -131,7 +131,7 @@
 
   .profile-options {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .profile-details {

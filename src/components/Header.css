@@ -1,0 +1,54 @@
+header {
+  align-items: center;
+  background-color: #FF5823;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Poppins SemiBold";
+  justify-content: flex-end;
+  height: 10vh;
+  text-align: center;
+  width: 100vw;
+}
+
+header > i {
+  align-self: center;
+  margin: 4vh auto;
+  visibility: hidden;
+}
+
+header > a {
+  background-color: #24263B;
+  border-radius: 25px;
+  color: #FFF;
+  display: none;
+  margin: 10px;
+  padding: 7px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header > a:hover {
+  background-color: #FFF;
+  color: #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 810px) {
+  header {
+    justify-content: center;
+    height: 10vh;
+  }
+
+  header > i {
+    visibility: visible;
+  }
+
+  header > a {
+    border-radius: inherit;
+    display: none;
+    margin: 0;
+    padding: 5px 10px;
+    position: relative;
+    width: 100%;
+  }
+}
