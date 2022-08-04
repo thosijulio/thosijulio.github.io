@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import showHeaderButtons from '../helpers/showHeaderButtons';
+import showHeaderNavBar from '../helpers/showHeaderNavBar';
 import './Header.css';
 
 function Header() {
   const [showDropDownMenu, setShowDropDownMenu] = useState(true);
 
   useEffect(() => {
-    showHeaderButtons(showDropDownMenu);
+    showHeaderNavBar(showDropDownMenu);
   }, [showDropDownMenu]);
 
   useEffect(() => {
@@ -17,13 +17,22 @@ function Header() {
     }
   }, []);
 
+  const handleNavClick = () => {
+    const dropDownBtnStyle = getComputedStyle(document.querySelector('#drop-down-btn'));
+    if (dropDownBtnStyle.display === 'block') {
+      setShowDropDownMenu(false);
+    }
+  }
+
   return (
     <header>
       <i className="fa-solid fa-bars" id="drop-down-btn" onClick={() => setShowDropDownMenu(!showDropDownMenu)} />
-      <Link onClick={() => setShowDropDownMenu(false)} to="/">Home</Link>
-      <Link onClick={() => setShowDropDownMenu(false)} to="/about">Sobre</Link>
-      <Link onClick={() => setShowDropDownMenu(false)} to="/projects">Projetos</Link>
-      <Link onClick={() => setShowDropDownMenu(false)} to="/contact">Contato</Link>
+      <nav id="header-nav-bar">
+        <Link onClick={handleNavClick} to="/">Home</Link>
+        <Link onClick={handleNavClick} to="/about">Sobre</Link>
+        <Link onClick={handleNavClick} to="/projects">Projetos</Link>
+        <Link onClick={handleNavClick} to="/contact">Contato</Link>
+      </nav>
     </header>
   );
 }
