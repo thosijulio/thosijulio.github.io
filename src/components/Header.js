@@ -20,10 +20,10 @@ function Header() {
   return (
     <header>
       <i className="fa-solid fa-bars" id="drop-down-btn" onClick={() => setShowDropDownMenu(!showDropDownMenu)} />
-      <Link to="/">Home</Link>
-      <Link to="/about">Sobre</Link>
-      <Link to="/projects">Projetos</Link>
-      <Link to="/contact">Contato</Link>
+      <Link onClick={() => setShowDropDownMenu(false)} to="/">Home</Link>
+      <Link onClick={() => setShowDropDownMenu(false)} to="/about">Sobre</Link>
+      <Link onClick={() => setShowDropDownMenu(false)} to="/projects">Projetos</Link>
+      <Link onClick={() => setShowDropDownMenu(false)} to="/contact">Contato</Link>
     </header>
   );
 }
