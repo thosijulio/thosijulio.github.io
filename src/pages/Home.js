@@ -8,13 +8,13 @@ function Home() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://github.com/thosijulio">
+              <a href="https://github.com/thosijulio" target="_blank" rel="noreferrer">
                 <i className="fa fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/thosijulio/">
+              <a href="https://www.linkedin.com/in/thosijulio/" target="_blank" rel="noreferrer">
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="https://instagram.com/thosijulio">
+              <a href="https://instagram.com/thosijulio" target="_blank" rel="noreferrer">
                 <i className="fa fa-instagram"></i>
               </a>
             </div>
