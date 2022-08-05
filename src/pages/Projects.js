@@ -7,7 +7,7 @@ function Projects() {
         <span className="main-text">
           Projetos
         </span>
-        <div className="project-role">
+        <div className="projects-role">
         </div>
       </div>
     </section>
