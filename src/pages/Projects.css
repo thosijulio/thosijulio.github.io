@@ -15,6 +15,24 @@
   text-align: center;
 }
 
+.projects-choise-btn {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.projects-choise-btn > div > button {
+  background-color: #FF5823;
+  border: none;
+  border-radius: 25px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 25px;
+}
+
 .projects-role {
   align-items: center;
   display: flex;

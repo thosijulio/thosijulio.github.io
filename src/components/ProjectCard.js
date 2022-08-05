@@ -24,7 +24,7 @@ function ProjectCard(props) {
       <div className="project-card-image-tags">
         <img alt="project-img" src={urlImage} />
         <div className="project-tags">
-          {tags.map((tag) => <span>{tag}</span>)}
+          {tags.map((tag, index) => <span key={index}>{tag}</span>)}
         </div>
       </div>
       <p>{description}</p>
