@@ -1,5 +1,5 @@
 .projects-section {
-  align-items: center;
+  align-items: flex-start;
   background-color: #24263B;
   color:#FFF;
   display: flex;

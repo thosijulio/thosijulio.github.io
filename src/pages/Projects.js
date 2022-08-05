@@ -1,3 +1,5 @@
+import ProjectCard from '../components/ProjectCard';
+import projects from '../data/projects';
 import './Projects.css';
 
 function Projects() {
@@ -8,6 +10,7 @@ function Projects() {
           Projetos
         </span>
         <div className="projects-role">
+          { projects.map((project, index) => <ProjectCard key={index} project={project} />)}
         </div>
       </div>
     </section>
