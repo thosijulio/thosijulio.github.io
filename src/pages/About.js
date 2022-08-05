@@ -17,7 +17,7 @@ function About() {
               No momento, estou fazendo uma transição de carreira, trabalhei por anos na área de suporte TI.
             </p>
             <p>
-              Sou curioso e perfeiccionista, sou tolerante e acredito que todos temos os mesmos direitos de viver
+              Sou curioso e perfeccionista, sou tolerante e acredito que todos temos os mesmos direitos de viver
               independente de como parecemos, de onde viemos e quem amamos. Acredito no trabalho em equipe, e que ele nos leva a melhores resultados.
             </p>
             <p>
