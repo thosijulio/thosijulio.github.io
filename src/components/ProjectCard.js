@@ -18,12 +18,20 @@ function ProjectCard(props) {
   }, [path, images]);
   return (
     <section className="project-card-section">
-      <h1>{name}</h1>
-      <img alt="project-img" src={urlImage} />
-      { tags.map((tag) => <span>{tag}</span>)}
+      <div className="project-card-name">
+        <h3>{name}</h3>
+      </div>
+      <div className="project-card-image-tags">
+        <img alt="project-img" src={urlImage} />
+        <div className="project-tags">
+          {tags.map((tag) => <span>{tag}</span>)}
+        </div>
+      </div>
       <p>{description}</p>
-      {type === 'Front-End' && <a href={link} target="_blank" rel="noreferrer">Site</a>}
-      <a href={repo} target="_blank" rel="noreferrer">Repositório</a>
+      <div className="project-card-links">
+        {type === 'Front-End' && <a href={link} target="_blank" rel="noreferrer">Acessar</a>}
+        <a href={repo} target="_blank" rel="noreferrer">Repositório</a>
+      </div>
     </section>
   )
 }
