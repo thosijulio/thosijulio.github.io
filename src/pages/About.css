@@ -9,6 +9,7 @@
 }
 
 .about-main-text {
+  align-self: flex-start;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
@@ -44,7 +45,7 @@
 .about-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url('../assets/ProfilePicture.png');
+  background-image: url('../assets/images/ProfilePicture.png');
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
