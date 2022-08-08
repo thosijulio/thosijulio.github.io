@@ -1,7 +1,7 @@
 const projects = [
   {
     description: 'Após o término da Trybe, resolvi aprofundar meus conhecimentos em front-end com algo que sempre gostei e fui fã. Para isso, utilizei a "pokeAPI" para criar uma aplicação estilo "pokedex", onde é possível jogar o clássico "Quem é esse pokémon" e ver alguns dados sobre os pokémon.',
-    images: 6,
+    images: 10,
     link: 'https://thosijulio.github.io/pokedex/',
     name: 'Pokedex',
     path: 'pokedex',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     description: 'Esse projeto foi minha primeira experiência de um projeto em grupo. Utilizamos metodologias ágeis e aprendi muito com os conflitos que cada merge proporcionava.',
-    images: 4,
+    images: 7,
     link: 'https://thosijulio.github.io/frontend-online-store',
     name: 'Online Store',
     path: 'online-store',

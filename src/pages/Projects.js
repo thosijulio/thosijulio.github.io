@@ -11,22 +11,26 @@ function Projects() {
         <span className="main-text">
           Projetos
         </span>
-        <div className="projects-choise-btn">
+        <div className="projects-choise">
           <div className="projects-front-end">
             <h4>Front-End</h4>
-            { projects.map((project, index) => {
-              if (project.type === 'Front-End') {
-                return (<button key={index} onClick={() => setChoisedProject(project)}>{project.name}</button>);
-              } return null;
-            })}
+            <div className="projects-choise-btn">
+              { projects.map((project, index) => {
+                if (project.type === 'Front-End') {
+                  return (<button key={index} onClick={() => setChoisedProject(project)}>{project.name}</button>);
+                } return null;
+              })}
+            </div>
           </div>
           <div className="projects-back-end">
             <h4>Back-End</h4>
-            { projects.map((project, index) => {
-              if (project.type === 'Back-End') {
-                return (<button key={index} onClick={() => setChoisedProject(project)}>{project.name}</button>);
-              } return null;
-            })}
+            <div className="projects-choise-btn">
+              { projects.map((project, index) => {
+                if (project.type === 'Front-End') {
+                  return (<button key={index} onClick={() => setChoisedProject(project)}>{project.name}</button>);
+                } return null;
+              })}
+            </div>
           </div>
         </div>
         <div className="projects-role">
