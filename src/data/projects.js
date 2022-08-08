@@ -10,7 +10,7 @@ const projects = [
     type: 'Front-End',
   },
   {
-    description: 'Esse projeto foi minha primeira experiência de um projeto em grupo. Utilizamos metodologias ágeis e aprendi muito com os conflitos que cada merge proporcionava.',
+    description: 'Este projeto foi minha primeira experiência de desenvolvimento em grupo. Utilizamos metodologias ágeis e aprendi muito com os conflitos que cada merge proporcionava.',
     images: 7,
     link: 'https://thosijulio.github.io/frontend-online-store',
     name: 'Online Store',
@@ -18,6 +18,26 @@ const projects = [
     repo: 'https://github.com/thosijulio/frontend-online-store',
     tags: ['JS ES6', 'gh-pages', 'React', 'HTML', 'CSS', 'React Router'],
     type: 'Front-End',
+  },
+  {
+    description: 'Um site que possibilita adicionar despesas realizar em outras moedas, e fazer a conversão para real no momento atual da operação.',
+    images: 2,
+    link: 'https://thosijulio.github.io/trybe-wallet',
+    name: 'Trybe Wallet',
+    path: 'trybe-wallet',
+    repo: 'https://github.com/thosijulio/trybe-wallet',
+    tags: ['JS ES6', 'gh-pages', 'React', 'HTML', 'CSS', 'React Router', 'Redux'],
+    type: 'Front-End',
+  },
+  {
+    description: 'Esta foi minha primeira API CRUD, onde consegui desenvolver utilizando o modelo MSC. Nela, é possível realizar requisições básicas utilizando um token JWT.',
+    images: 0,
+    link: '',
+    name: 'Cookmaster',
+    path: '',
+    repo: 'https://github.com/thosijulio/trybe-cookmaster-project',
+    tags: ['NodeJS', 'Express', 'MongoDB', 'JWT', 'CRUD API', 'REST', 'MSC'],
+    type: 'Back-End',
   }
 ]
 

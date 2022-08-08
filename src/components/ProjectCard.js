@@ -6,23 +6,27 @@ function ProjectCard(props) {
   const [urlImage, setUrlImage] = useState('');
 
   useEffect(() => {
-    const getRandomImage = setInterval(() => {
+    if (type === 'Front-End') {
+      const getRandomImage = setInterval(() => {
+        setUrlImage(
+          require(
+            `../assets/images/projects/${path}/${Math.floor(Math.random() * images) + 1}.png`
+        ));
+      }, 3000);
+      return () => {
+        clearInterval(getRandomImage);
+      }
+    }
+  }, [images, path, type]);
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    if (type === 'Front-End') {
       setUrlImage(
         require(
           `../assets/images/projects/${path}/${Math.floor(Math.random() * images) + 1}.png`
       ));
-    }, 3000)
-    return () => {
-      clearInterval(getRandomImage);
     }
-  }, [images, path]);
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => {
-    setUrlImage(
-      require(
-        `../assets/images/projects/${path}/${Math.floor(Math.random() * images) + 1}.png`
-    ));
   });
 
   return (
@@ -32,9 +36,11 @@ function ProjectCard(props) {
       </div>
       <div className="project-card-content">
         <div className="project-card-image-tags">
-          <div className="project-card-image">
-            <img alt="project-img" src={urlImage} />
-          </div>
+          { type === 'Front-End' && (
+            <div className="project-card-image">
+              <img alt="project-img" src={urlImage} />
+            </div>
+          )}
           <div className="project-tags">
             {tags.map((tag, index) => <span key={index}>{tag}</span>)}
           </div>

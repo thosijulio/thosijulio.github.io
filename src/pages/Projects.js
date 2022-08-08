@@ -26,7 +26,7 @@ function Projects() {
             <h4>Back-End</h4>
             <div className="projects-choise-btn">
               { projects.map((project, index) => {
-                if (project.type === 'Front-End') {
+                if (project.type === 'Back-End') {
                   return (<button key={index} onClick={() => setChoisedProject(project)}>{project.name}</button>);
                 } return null;
               })}
