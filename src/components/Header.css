@@ -13,21 +13,20 @@ header {
 header > i {
   align-self: center;
   margin: 4vh auto;
-  visibility: hidden;
+  display: none !important;
 }
 
-header > a {
+header > nav > a {
   background-color: #24263B;
   border-radius: 25px;
   color: #FFF;
-  display: none;
   margin: 10px;
   padding: 7px 30px;
   text-align: center;
   text-decoration: none;
 }
 
-header > a:hover {
+header > nav > a:hover {
   background-color: #FFF;
   color: #000;
   text-decoration: none;
@@ -35,19 +34,26 @@ header > a:hover {
 
 @media screen and (max-width: 810px) {
   header {
+    flex-direction: row;
     justify-content: center;
     height: 10vh;
   }
 
   header > i {
-    visibility: visible;
+    display: block !important;
   }
 
-  header > a {
-    border-radius: inherit;
-    display: none;
+  header > nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header > nav > a {
+    border: 1px solid #24263B;
+    border-radius: 0;
     margin: 0;
-    padding: 5px 10px;
+    padding: 10px 5px;
     position: relative;
     width: 100%;
   }

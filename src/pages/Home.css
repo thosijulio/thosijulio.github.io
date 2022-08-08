@@ -9,20 +9,38 @@
 }
 
 .profile-parent {
-  display: flex;
   align-items: center;
-  color: aliceblue;
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.profile-details {
+  border-right: 2px solid #FFF;
+  padding: 0 25px;
+}
+
+.colz .colz-icon i {
+  color: white;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.colz .colz-icon i:hover {
+  transform: scale(1.5);
 }
 
 .profile-details-name{
   font-size: 24px;
   font-family: "Poppins SemiBold";
+  padding: 15px 0;
 }
 
 .profile-details-role {
   display: flex;
   flex-direction: column;
-  margin: 14px 0 24px 0;
+  padding-bottom: 15px;
 }
 
 .profile-details-role h1 {
@@ -40,12 +58,12 @@
 
 .profile-role-tagline{
   font-size: 19px;
-  margin: 5px 0 0 0;
+  margin: 0;
   font-family: "Poppins Light";
 }
 
 .profile-options .highlighted-btn {
-  margin: 0 0 0 28px;
+  margin: 0 20px;
 }
 
 .profile-options .highlighted-btn:hover {
@@ -61,13 +79,12 @@
   border-radius: 50%;
   height: 380px;
   width: 380px;
-  margin: 0 0 0 100px;
 }
 
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url('../assets/ProfilePicture.jpeg');
+  background-image: url('../assets/ProfilePicture.png');
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -80,22 +97,11 @@
   ease-out;
 }
 
-.colz .colz-icon i {
-  color: white;
-  font-size: 20px;
-  padding: 8px;
-  padding-left: 0;
-}
-
-.colz .colz-icon i:hover {
-  transform: scale(1.5);
-}
-
 @media screen and (max-width: 1110px) {
-  .profile-picture {
-    margin: 0 0 0 80px;
+  .profile-details {
+    padding: 0 25px 0 0;
   }
-
+  
   .profile-details-name {
     font-size: 20px;
   }
@@ -106,40 +112,35 @@
 
   .profile-options .btn {
     width: 120px;
-    padding: 11px 0;
     z-index: 700;
   }
 }
 
 @media screen and (max-width: 910px) {
   .profile-picture {
-    height: 320px;
-    width: 320px;
-    margin: 0 0 0 4px;
+    height: 50%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 810px) {
+  .profile-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .profile-details {
+    border: none;
+    padding: 30px 0;
+  }
+
   .profile-picture {
-    display: none;
+    height: 150px;
+    width: 150px;
   }
 
   .profile-parent {
     flex-direction: column-reverse;
-    margin: 40px 0 0 0;
-  }
-
-  .profile-options {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .profile-details {
-    margin: 25px 0 0;
-  }
-
-  .profile-options .highlighted-btn {
-    margin: 0 !important;
   }
 
   .profile-options, .profile-details-role {
@@ -149,12 +150,35 @@
 
 @media screen and (max-width: 375px) {
   .profile-picture {
-    height: 275px;
-    width: 275px;
-    margin-top: -90px;
+    height: 120px;
+    width: 120px;
   }
 
-  .profile-details {
-    width: 90%;
+  .profile-details-role {
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile-options > a {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .profile-picture {
+    height: 120px;
+    width: 120px;
+  }
+
+  .colz .colz-icon i {
+    font-size: 20px;
+  }
+
+  .profile-details-name {
+    font-size: 18px;
+  }
+
+  .profile-details-role h1 {
+    font-size: 30px;
   }
 }
