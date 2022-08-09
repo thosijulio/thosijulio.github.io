@@ -52,6 +52,10 @@
   color: (--white);
 }
 
+.text-role {
+  font-family: 'Tiro Gurmukhi', serif;
+}
+
 .highlighted-text {
   color: var( --dark-orange);
 }

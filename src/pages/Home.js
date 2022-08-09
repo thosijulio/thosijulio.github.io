@@ -31,6 +31,7 @@ function Home() {
               {" "}
               <h1>
               <Typical
+                className="text-role"
                 loop={Infinity}
                 steps={[
                   "Desenvolvedor Full-Stack Web Jr.",
