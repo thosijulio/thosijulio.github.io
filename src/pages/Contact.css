@@ -28,9 +28,16 @@
   padding: 15px;
 }
 
-.role-social-links > i {
+.role-social-links > a > i {
+  color: #FFF;
   font-size: 30px;
-  padding: 5px;
+  padding: 8px ;
+  text-decoration: none;
+}
+
+.role-social-links > a > i:hover {
+  color: #FF5823;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,7 +53,7 @@
     font-size: 12px;
   }
 
-  .role-social-links > i {
+  .role-social-links > a > i {
     font-size: 15px;
   }
 }
