@@ -1,4 +1,5 @@
 import Typical from 'react-typical';
+import skillsLogos from '../data/skillsLogos';
 import './Home.css';
 
 function Home() {
@@ -38,6 +39,9 @@ function Home() {
               />
               </h1>
             </span>
+          </div>
+          <div className="profile-skills">
+            { skillsLogos.map(({url, alt}, index) => <a href={url} key={index} rel="noreferrer" target="_blank"><img alt={alt} src={require(`../assets/images/skills/${alt}.svg`)}/></a>)}
           </div>
           <div className="profile-options">
             <a className="btn primary-btn" href="mailto:thosijulio@gmail.com">

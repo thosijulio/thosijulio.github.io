@@ -97,6 +97,20 @@
   ease-out;
 }
 
+.profile-skills {
+  padding-bottom: 25px;
+}
+
+.profile-skills > a > img {
+  height: 30px;
+  width: 30px;
+}
+
+.skills-logos > img {
+  height: 50px;
+  width: 50px;
+}
+
 @media screen and (max-width: 1110px) {
   .profile-details {
     padding: 0 25px 0 0;
@@ -181,4 +195,10 @@
   .profile-details-role h1 {
     font-size: 30px;
   }
+
+
+.profile-skills > a > img {
+  height: 20px;
+  width: 20px;
+}
 }
