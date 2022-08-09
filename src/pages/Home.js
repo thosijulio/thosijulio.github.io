@@ -41,7 +41,7 @@ function Home() {
             </span>
           </div>
           <div className="profile-skills">
-            { skillsLogos.map(({url, alt}, index) => <img alt={alt} key={index} src={url} />)}
+            { skillsLogos.map(({url, alt}, index) => <a href={url} key={index} rel="noreferrer" target="_blank"><img alt={alt} src={require(`../assets/images/skills/${alt}.svg`)}/></a>)}
           </div>
           <div className="profile-options">
             <a className="btn primary-btn" href="mailto:thosijulio@gmail.com">

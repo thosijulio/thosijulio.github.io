@@ -1,78 +1,74 @@
 const skillsLogos = [
 {
-  alt: 'Python',
+  alt: 'python',
   url: 'https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg',
 },
 {
-  alt: 'Heroku',
+  alt: 'socketio',
   url: 'https://github.com/devicons/devicon/blob/master/icons/socketio/socketio-original.svg',
 },
 {
-  alt: 'Sequelize',
+  alt: 'sequelize',
   url: 'https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original.svg',
 },
 {
-  alt: 'Heroku',
+  alt: 'heroku',
   url: 'https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original.svg',
 },
 {
-  alt: 'Mocha',
+  alt: 'mocha',
   url: 'https://github.com/devicons/devicon/blob/master/icons/mocha/mocha-plain.svg',
 },
 {
-  alt: 'Express',
+  alt: 'express',
   url: 'https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg',
 },
 {
-  alt: 'NodeJS',
+  alt: 'nodejs',
   url: 'https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg',
 },
 {
-  alt: 'MongoDB',
+  alt: 'mongodb',
   url: 'https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg',
 },
 {
-  alt: 'My SQL',
+  alt: 'mysql',
   url: 'https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg',
 },
 {
-  alt: 'Redux',
+  alt: 'redux',
   url: 'https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg',
 },
 {
-  alt: 'React',
+  alt: 'react',
   url: 'https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg',
 },
 {
-  alt: 'Jest',
+  alt: 'jest',
   url: 'https://github.com/devicons/devicon/blob/master/icons/jest/jest-plain.svg',
 },
 {
-  alt: 'JavaScript',
+  alt: 'javascript',
   url: 'https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg',
 },
 {
-  alt: 'CSS3',
+  alt: 'css3',
   url: 'https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg',
 },
 {
-  alt: 'HTML5',
+  alt: 'html5',
   url: 'https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg',
 },
 {
-  alt: 'Markdown',
-  url: 'https://github.com/devicons/devicon/blob/master/icons/markdown/markdown-original.svg',
-},
-{
-  alt: 'GitHub',
+  alt: 'github',
   url: 'https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg',
 },
 {
-  alt: 'Linux',
+  alt: 'linux',
   url: 'https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg',
 },
 {
-  alt: 'Windows',
+  alt: 'windows',
   url: 'https://github.com/devicons/devicon/blob/master/icons/windows8/windows8-original.svg',
 },
 ]
