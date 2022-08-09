@@ -1,0 +1,59 @@
+.contact-section {
+  align-items: flex-start;
+  background-color: #24263B;
+  color: #FFF;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  justify-content: center;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.contact-main-text {
+  font-size: 40px;
+  font-weight: 600;
+  width: 100vw;
+}
+
+.contact-role {
+  width: 50vw;
+}
+
+.role-text {
+  font-size: 18px;
+}
+
+.role-social-links {
+  padding: 15px;
+}
+
+.role-social-links > a > i {
+  color: #FFF;
+  font-size: 30px;
+  padding: 8px ;
+  text-decoration: none;
+}
+
+.role-social-links > a > i:hover {
+  color: #FF5823;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-role {
+    width: 80%;
+  }
+
+  .contact-main-text {
+    font-size: 25px;
+  }
+
+  .role-text {
+    font-size: 12px;
+  }
+
+  .role-social-links > a > i {
+    font-size: 15px;
+  }
+}
