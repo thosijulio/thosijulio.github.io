@@ -49,7 +49,7 @@ function Home() {
             {" "}
             Enviar E-mail{" "}
             </a>
-            <a href="../assets/CV.pdf" download="CV-JulioThosi.pdf">
+            <a href="https://github.com/thosijulio/thosijulio.github.io/blob/main/src/assets/CV.pdf" download="CV-JulioThosi.pdf">
               <button className="btn highlighted-btn">Baixar Currículo</button>
             </a>
           </div>
