@@ -30,7 +30,7 @@ const projects = [
     type: 'Front-End',
   },
   {
-    description: 'Esta foi minha primeira API CRUD, onde consegui desenvolver utilizando o modelo MSC. Nela, é possível realizar requisições básicas utilizando um token JWT.',
+    description: 'Esta foi minha primeira API CRUD, onde consegui desenvolver utilizando como padrão de projeto o modelo MSC. Nela, é possível realizar requisições básicas utilizando um token JWT.',
     images: 0,
     link: '',
     name: 'Cookmaster',
