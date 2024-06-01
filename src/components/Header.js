@@ -31,11 +31,13 @@ function Header() {
 
   return (
     <header>
-      <MdMenu id="drop-down-btn"
-        onClick={() => setShowDropDownMenu(!showDropDownMenu)} />
+      <MdMenu
+        id="drop-down-btn"
+        onClick={() => setShowDropDownMenu(!showDropDownMenu)}
+      />
       <nav id="header-nav-bar">
         <Link onClick={handleNavClick} to="/">
-          Home
+          Início
         </Link>
         <Link onClick={handleNavClick} to="/about">
           Sobre
