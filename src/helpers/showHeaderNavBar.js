@@ -1,10 +1,12 @@
 const showHeaderNavBar = (showNav) => {
-  const navBar = document.getElementById('header-nav-bar');
+  const navBar = document.getElementById("header-nav-bar");
   if (showNav) {
-    navBar.style.display = 'flex';
+    navBar.classList.add("show");
+    navBar.classList.remove("hide");
   } else {
-    navBar.style.display = 'none';
+    navBar.classList.add("hide");
+    navBar.classList.remove("show");
   }
-}
+};
 
 module.exports = showHeaderNavBar;
