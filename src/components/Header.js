@@ -26,7 +26,7 @@ function Header() {
 
   return (
     <header>
-      <i className="fa-solid fa-bars" id="drop-down-btn" onClick={() => setShowDropDownMenu(!showDropDownMenu)} />
+      <p onClick={() => setShowDropDownMenu(!showDropDownMenu)}>Menu</p>
       <nav id="header-nav-bar">
         <Link onClick={handleNavClick} to="/">Home</Link>
         <Link onClick={handleNavClick} to="/about">Sobre</Link>
