@@ -28,19 +28,25 @@
   padding: 15px;
 }
 
-.role-social-links > a > i {
+.role-social-links>a>svg {
   color: #FFF;
-  font-size: 30px;
-  padding: 8px ;
+  font-size: 50px;
+  padding: 8px;
   text-decoration: none;
 }
 
-.role-social-links > a > i:hover {
+.role-social-links>a>svg:hover {
   color: #FF5823;
   text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
+  .contact-section {
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+
   .contact-role {
     width: 80%;
   }
@@ -53,7 +59,7 @@
     font-size: 12px;
   }
 
-  .role-social-links > a > i {
-    font-size: 15px;
+  .role-social-links>a>svg {
+    font-size: 40px;
   }
 }
