@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import showHeaderNavBar from "../helpers/showHeaderNavBar";
 import { MdMenu } from "react-icons/md";
+import showHeaderNavBar from "../helpers/showHeaderNavBar";
 import "./Header.css";
 
 function Header() {
@@ -33,9 +33,10 @@ function Header() {
     <header>
       <MdMenu
         id="drop-down-btn"
+        fontSize="25px"
         onClick={() => setShowDropDownMenu(!showDropDownMenu)}
       />
-      <nav id="header-nav-bar">
+      <nav id="header-nav-bar" className={showDropDownMenu ? "show" : ""}>
         <Link onClick={handleNavClick} to="/">
           Início
         </Link>

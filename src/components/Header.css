@@ -13,7 +13,31 @@ header {
 header>svg {
   align-self: center;
   margin: 4vh auto;
-  display: none !important;
+  display: none;
+  /* Hide by default */
+}
+
+header>nav {
+  display: flex;
+  /* Show by default */
+  flex-direction: row;
+  opacity: 1;
+  transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  max-height: none;
+  overflow: visible;
+}
+
+header>nav.show {
+  display: flex;
+  max-height: 500px;
+  /* Adjust as needed */
+  opacity: 1;
+}
+
+header>nav.hide {
+  display: flex;
+  max-height: 0;
+  opacity: 0;
 }
 
 header>nav>a {
@@ -41,12 +65,17 @@ header>nav>a:hover {
 
   header>svg {
     display: block !important;
+    /* Show dropdown button on mobile */
   }
 
   header>nav {
-    display: flex;
-    flex-direction: column;
+    display: none;
+    /* Hide navbar by default on mobile */
     width: 100%;
+  }
+
+  header>nav.show {
+    display: flex;
   }
 
   header>nav>a {
