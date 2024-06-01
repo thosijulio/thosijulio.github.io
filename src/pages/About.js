@@ -12,16 +12,11 @@ function About() {
           <span className="primary-text">
             {" "}
             <p>
-              Quem sou eu? Sou Julio, pai de uma linda menina e marido de uma mulher
-              maravilhosa. Tenho 26 anos, me formei em 2022 em Desenvolvimento Full-Stack Web na Trybe.
-              No momento, estou fazendo uma transição de carreira, trabalhei por anos na área de suporte TI.
+              Tenho 26 anos, me formei em 2022 em Desenvolvimento Full-Stack Web na Trybe.
+              Estou trabalhando à dois anos como desenvedor full stack.
             </p>
             <p>
-              Sou curioso e perfeccionista, sou tolerante e acredito que todos temos os mesmos direitos de viver
-              independente de como parecemos, de onde viemos e quem amamos. Acredito no trabalho em equipe, e que ele nos leva a melhores resultados.
-            </p>
-            <p>
-              Meu objetivo no momento é iniciar minha carreira como desenvolvedor, e adquirir ainda mais conhecimento em tecnologias diversas.
+              Meu objetivo no momento é adquirir mais conhecimento em tecnologias diversas, e trazer soluções cada vez mais robustas e rápidas para meus clientes.
             </p>
           </span>
           <div className="about-picture">
