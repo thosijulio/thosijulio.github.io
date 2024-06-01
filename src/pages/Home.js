@@ -34,7 +34,7 @@ function Home() {
                 className="text-role"
                 loop={Infinity}
                 steps={[
-                  "Desenvolvedor Full-Stack Web Jr.",
+                  "Desenvolvedor Full-Stack Web",
                   1000,
                 ]}
               />
